@@ -6,17 +6,52 @@
     box-sizing: border-box;
 }
 
-.header-of-main
+/* Header Section is Style */
+
+.top-bar
 {
     height: 50px;
     width: 100%;
-    background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 42%, rgba(254,0,0,1) 100%, rgba(0,212,255,1) 100%); 
+    background: #de0f0f;
+    background: linear-gradient(90deg, #de0f0f 0%, #de0f0f 100%); 
 }
 
-.fa-envelope
+.top-bar .fa
 {
     color: white;
-    height: 100px;
-    width: 40px;
+    margin-left: 20px;
+    margin-top: 15px;
+    margin-right: 10px;
+    font-size: 17px;
+}
+
+.top-bar input
+{
+    background-color: rgb(255, 255, 255);
+    color: #de0f0f; 
+    border-color: rgb(255, 255, 255);
+    width: 100px;
+    height: 35px;
+    margin-left: 840px;
+    margin-top: 5px;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.logo-nav
+{
+    background-color: #000000;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    border-radius: 20px;
+}
+
+.logo-nav .logo
+{
+    height: 180px;
+    margin-left: 350px;
 }

@@ -1,0 +1,22 @@
+/* Reset the Body */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.header-of-main
+{
+    height: 50px;
+    width: 100%;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 42%, rgba(254,0,0,1) 100%, rgba(0,212,255,1) 100%); 
+}
+
+.fa-envelope
+{
+    color: white;
+    height: 100px;
+    width: 40px;
+}

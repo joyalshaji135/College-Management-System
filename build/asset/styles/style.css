@@ -1,6 +1,6 @@
 /* Reset the Body */
 
-*{
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
@@ -8,16 +8,14 @@
 
 /* Header Section is Style */
 
-.top-bar
-{
+.top-bar {
     height: 50px;
     width: 100%;
     background: #de0f0f;
-    background: linear-gradient(90deg, #de0f0f 0%, #de0f0f 100%); 
+    background: linear-gradient(90deg, #de0f0f 0%, #de0f0f 100%);
 }
 
-.top-bar .fa
-{
+.top-bar .fa {
     color: white;
     margin-left: 20px;
     margin-top: 15px;
@@ -25,10 +23,9 @@
     font-size: 17px;
 }
 
-.top-bar input
-{
+.top-bar input {
     background-color: rgb(255, 255, 255);
-    color: #de0f0f; 
+    color: #de0f0f;
     border-color: rgb(255, 255, 255);
     width: 100px;
     height: 35px;
@@ -41,8 +38,7 @@
     border-radius: 10px;
 }
 
-.logo-nav
-{
+.logo-nav {
     background-color: #000000;
     margin-left: 10px;
     margin-top: 10px;
@@ -50,8 +46,7 @@
     border-radius: 20px;
 }
 
-.logo-nav .logo
-{
+.logo-nav .logo {
     height: 180px;
     margin-left: 350px;
 }

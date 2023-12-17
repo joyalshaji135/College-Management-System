@@ -15,6 +15,7 @@ html, body{
     overflow-x: hidden;
     background: url(../images/bg.jpg) no-repeat 0px 0px;
 	background-size:cover;
+    background-color: #f4a0a0;
 }
 body a{
 	transition: 0.5s all ease;

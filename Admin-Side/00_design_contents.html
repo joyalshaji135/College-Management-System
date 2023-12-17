@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<head>
+<title>Visitors an Admin Panel Category Bootstrap Responsive Website Template | Vector_map :: w3layouts</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Visitors Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- bootstrap-css -->
+<link rel="stylesheet" href="css/bootstrap.min.css" >
+<!-- //bootstrap-css -->
+<!-- Custom CSS -->
+<link href="css/style.css" rel='stylesheet' type='text/css' />
+<link href="css/style-responsive.css" rel="stylesheet"/>
+<link href="css/jqvmap.css" media="screen" rel="stylesheet" type="text/css"/>
+<!-- font CSS -->
+<link href='//fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+<!-- font-awesome icons -->
+<link rel="stylesheet" href="css/font.css" type="text/css"/>
+<link href="css/font-awesome.css" rel="stylesheet"> 
+<!-- //font-awesome icons -->
+<script src="js/jquery2.0.3.min.js"></script>
+</head>
+<body>
+
+<section id="main-content">
+    <section class=" wrapper">
+        <div class="agile-grid">
+            <div class="row">
+                <div class="col-lg-6">
+                    <section class="panel">
+                        <div class="panel-body">col-lg-6</div>
+                    </section>
+                </div>
+                <div class="col-lg-6">
+                    <section class="panel">
+                        <div class="panel-body">col-lg-6</div>
+                    </section>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <section class="panel">
+                        <div class="panel-body">col-lg-12</div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </section>
+</section>
+
+<!-- INPUT BOX AND BUTTONS -->
+
+<section id="main-content">
+    <section class=" wrapper">
+        <div class="form-w3layouts">    
+            <div class="row">
+                <div class="col-md-12">
+                    <section class="panel">
+                        <div data-collapsed="0" class="pane">    
+                            <div class="panel-heading">
+                                <div class="panel-title">
+                                    Input Grid
+                                </div>
+                            </div>
+                            <div class="panel-body">
+                                <div class="row">
+                                    <div class="col-md-12 form-group">
+                                        <input type="text" placeholder=".col-md-12" class="form-control">
+                                    </div>
+                                
+                                    <div class="col-md-6 form-group">
+                                        <input type="text" placeholder=".col-md-6" class="form-control">
+                                    </div>
+                                
+                                    <div class="col-md-6 form-group">
+                                        <input type="text" placeholder=".col-md-6" class="form-control">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </section>
+</section>
+
+
+    <script src="js/bootstrap.js"></script>
+    <script src="js/jquery.dcjqaccordion.2.7.js"></script>
+    <script src="js/scripts.js"></script>
+    <script src="js/jquery.slimscroll.js"></script>
+    <script src="js/jquery.nicescroll.js"></script>
+    <!--[if lte IE 8]><script language="javascript" type="text/javascript" src="js/flot-chart/excanvas.min.js"></script><![endif]-->
+    <script src="js/jquery.scrollTo.js"></script>
+    <script src="js/jquery.vmap.js"></script>
+    <script src="js/jquery.vmap.world.js"></script>
+    <script src="js/jquery.vmap.sampledata.js"></script>
+    <script src="js/jquery.vmap.europe.js"></script>
+    <script src="js/jquery.vmap.asia.js"></script>
+    <script src="js/jquery.vmap.australia.js"></script> 
+    <script>
+        jQuery('#world-vmap').vectorMap({
+            map: 'world_en',
+            backgroundColor: null,
+            color: '#ffffff',
+            hoverOpacity: 0.7,
+            selectedColor: '#666666',
+            enableZoom: true,
+            borderWidth:1,
+            showTooltip: true,
+            values: sample_data,
+            scaleColors: ['#C8EEFF', '#006491'],
+            normalizeFunction: 'polynomial'
+        });
+    </script>
+    
+    <script type="text/javascript">
+        jQuery(document).ready(function() {
+            jQuery('#europe-vmap').vectorMap({
+                map: 'europe_en',
+                backgroundColor: null,
+                color: '#ffffff',
+                borderWidth:1,
+                hoverOpacity: 0.7,
+                selectedColor: '#666666',
+                enableZoom: false,
+                showTooltip: false,
+                values: sample_data,
+                scaleColors: ['#C8EEFF', '#006491'],
+                normalizeFunction: 'polynomial'
+            });
+        });
+    </script>
+    
+    <script type="text/javascript">
+        jQuery(document).ready(function() {
+            jQuery('#asia-vmap').vectorMap({
+                map: 'asia_en',
+                backgroundColor: null,
+                color: '#ffffff',
+                borderWidth:1,
+                hoverOpacity: 0.7,
+                selectedColor: '#666666',
+                enableZoom: false,
+                showTooltip: false,
+                values: sample_data,
+                scaleColors: ['#C8EEFF', '#006491'],
+                normalizeFunction: 'polynomial'
+            });
+        });
+    </script>
+    
+    <script type="text/javascript">
+        jQuery(document).ready(function() {
+            jQuery('#australia-vmap').vectorMap({
+                map: 'australia_en',
+                backgroundColor: null,
+                color: '#ffffff',
+                borderWidth:1,
+                hoverOpacity: 0.7,
+                selectedColor: '#666666',
+                enableZoom: false,
+                showTooltip: false,
+                values: sample_data,
+                scaleColors: ['#C8EEFF', '#006491'],
+                normalizeFunction: 'polynomial'
+            });
+        });
+    </script>
+    
+    </body>
+    </html>    

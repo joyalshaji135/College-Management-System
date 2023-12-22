@@ -3170,4 +3170,15 @@ div#graph1, div#graph4, div#graph5, div#graph6, div#graph7, div#graph8, div#grap
     height: 30px;
     width: 90px;
     border-radius: 10px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+.form-button
+{
+    color: #ffffff;
+    background-color: rgb(63, 225, 74);
+    border-color: rgb(63, 225, 74);
+    height: 30px;
+    width: 30%;
+    border-radius: 10px;
 }

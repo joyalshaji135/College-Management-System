@@ -87,5 +87,6 @@ if (isset($_POST['programme_submit']))
 
 ?>
 
+
 <!-- insert into `table_name` (tbl_value1,tbl_value2,tbl_value3,tbl_value4,.....,tbl_value n) values('$emp_name','$emp_age','$emp_address','$emp_salary','true') -->
 

@@ -77,7 +77,7 @@
                     </a>
                     <ul class="sub">
 						<li><a href="./view_staff.html">View Staff</a></li>
-						<li><a href="./add_staff.html">Add Staff</a></li>
+						<li><a href="./add_staff.php">Add Staff</a></li>
 						<li><a href="./update_staff.html">Update Staff</a></li>
 						<li><a href="./delete_staff.html">Delete Staff</a></li>
                     </ul>

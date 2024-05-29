@@ -44,6 +44,7 @@ include('./Borders/side_bar.php');
                                                     </div>
                                                 <div class="col-sm-3"></div>
                                                 </div>
+                                                <div class="col-lg-6"></div>
                                                 <input type="submit" value="Submit" class="btn btn-info" name="programme_submit">
                                             </form>
                                             <br>
@@ -56,8 +57,7 @@ include('./Borders/side_bar.php');
             </section>
         </section>         
 <!-- end of the Content -->
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>    
 <?php
 
 include('./Borders/footer.php');

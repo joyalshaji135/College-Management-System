@@ -22,6 +22,18 @@
 						<li><a href="./delete_student.html">Delete Student</a></li>
                     </ul>
                 </li>
+                <li class="sub-menu">
+                    <a href="javascript:;">
+                        <i class="fa fa-book"></i>
+                        <span>Programme Management</span>
+                    </a>
+                    <ul class="sub">
+						<li><a href="./">View Programme</a></li>
+						<li><a href="./add_programme.php">Add Programme</a></li>
+						<li><a href="./update_student.html">Update Programme</a></li>
+						<li><a href="./delete_student.html">Delete Programme</a></li>
+                    </ul>
+                </li>
 				<li class="sub-menu">
                     <a href="javascript:;">
                         <i class="fa fa-book"></i>

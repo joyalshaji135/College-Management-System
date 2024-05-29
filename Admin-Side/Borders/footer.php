@@ -1,3 +1,4 @@
+<section id="main-content">
 <!-- footer -->
 <div class="footer">
 			<div class="wthree-copyright">

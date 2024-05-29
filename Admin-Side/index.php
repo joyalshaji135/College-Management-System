@@ -140,6 +140,7 @@ include('./Borders/side_bar.php');
 			<div class="clearfix"> </div>
 		</div>
 </section>
+</section>
  
 <!-- footer -->
 <?php

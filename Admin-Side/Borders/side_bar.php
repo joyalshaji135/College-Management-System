@@ -53,7 +53,7 @@
                     </a>
                     <ul class="sub">
 						<li><a href="./view_student.php">View Subject</a></li>
-						<li><a href="./add_student.php">Add Subject</a></li>
+						<li><a href="./add_subject.php">Add Subject</a></li>
 						<li><a href="./update_student.php">Update Subject</a></li>
 						<li><a href="./delete_student.php">Delete Subject</a></li>
                     </ul>

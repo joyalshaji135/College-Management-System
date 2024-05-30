@@ -15,5 +15,3 @@ function Display_Programme()
 
 }
 ?>
-
-<option value="" style=""></option>

@@ -1,16 +1,19 @@
 <?php
 
-function Display_Course()
+function Display_Programme()
 {
-    global $connection;
-                $course_select_query="Select * from category_tbl";
-                $course_result_query=mysqli_query($connection,$course_select_query);
-                while($category_row=mysqli_fetch_assoc($course_result_query))
+                global $connection;
+                $programme_select_query="Select * from programme_tbl";
+                $programme_select_main_query=mysqli_query($connection,$programme_select_query);
+                echo "<option selected disabled>-Select Programme-</option>";
+                while($programme_row=mysqli_fetch_assoc($programme_select_main_query))
                 {
-                    $category_name=$category_row['category_name'];
-                    $category_id=$category_row['category_id'];
-                   echo "<option value='$category_id'>$category_name</option>";
+                    $programme_id=$programme_row['programme_id'];
+                    $programme_name=$programme_row['programme_name'];
+                    echo "<option value='$programme_id'>$programme_name</option>";
                 }
 
 }
 ?>
+
+<option value="" style=""></option>

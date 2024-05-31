@@ -6,6 +6,28 @@ include('./Function/display_function.php');
 
 ?>
 <!-- Database Connection -->
+
+<!-- Programme and Course are Organize -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript">
+   $(document).ready(function(){
+    $("#programme_details_id").change(function(){
+        var course_id=$(this).val();
+        $.ajax({
+            url:"get_course_details.php",
+            method:"POST",
+            data:{course_ID:course_id},
+            success:function(data){
+                $("#course_details_id").html(data);
+            }
+        }); 
+    });
+});
+    </script>
+
+<!-- Programme and Course are Organize -->
+
 <!--header start-->
 <?php
 
@@ -36,10 +58,9 @@ include('./Borders/side_bar.php');
                                     <div class="panel-body">
                                         <div class="row">
                                             <form action="" method="post">
-                                                <div class="col-lg-3"></div>
                                                 
-                                                <div class="col-lg-6">
-                                                <select class="form-control m-bot15" name="programme_id" style="text-align: center;">
+                                                <div class="col-lg-4">
+                                                <select id="programme_details_id" class="form-control m-bot15" name="programme_id" style="text-align: center;">
                                                     <?php
                                             
                                                         Display_Programme();
@@ -47,18 +68,21 @@ include('./Borders/side_bar.php');
                                                     ?>
                                                 </select>
                                                 </div>
-                                                <div class="col-lg-3"></div>
-                                                <br><br><br>
-                                                <div class="col-lg-3"></div>
-                                                <div class="col-lg-6">
-                                                    <input type="text" class="form-control" id="exampleInputEmail2" placeholder="Enter Course" name="course_name">
+                                                <div class="col-lg-4">
+                                                <select id="course_details_id" class="form-control m-bot15" name="course_id" style="text-align: center;">
+                                                    
+                                                </select>
                                                 </div>
-                                                <div class="col-lg-3"></div>
+                                                
+                                                <div class="col-lg-4">
+                                                    <input type="text" class="form-control" id="exampleInputEmail2" placeholder="Enter Subject" name="subject_name">
+                                                </div>
+                                                
                                                 
                                                 <div class="col-lg-5"></div>
                                                 <div class="col-lg-6 form-group">
                                                     <br>
-                                                    <input type="submit" placeholder=".col-md-3" class="form-button" value="Submit" name="course_submit">
+                                                    <input type="submit" placeholder=".col-md-3" class="form-button" value="Submit" name="subject_submit">
                                                 </div>
                                             </form>
                                         </div>
@@ -69,7 +93,7 @@ include('./Borders/side_bar.php');
             </section>
         </section>
 <!--main content end-->
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> 
  <!-- footer -->
 <?php
 
@@ -81,18 +105,20 @@ include('./Borders/footer.php');
 
 <?php
 
-if (isset($_POST["course_submit"])) 
+if (isset($_POST["subject_submit"])) 
 {
-    $course_name = $_POST["course_name"];
-    $programme_id = $_POST["programme_id"];
-    $course_status = "active";
+    $programme_id = $_POST['programme_id'];
+    $course_id = $_POST['course_id'];
+    $subject_name = $_POST['subject_name'];
+    $subject_status = "active";
 
-    $course_insert_query = "insert into course_tbl (programme_id,course_name,course_status) values ('$programme_id','$course_name','$course_status')";
-    $course_insert_main_query = mysqli_query($connection,$course_insert_query);
-    if ($course_insert_main_query) 
+
+    $subject_insert_query = "insert into subject_tbl (programme_id,course_id,subject_name,subject_status) values ('$programme_id','$course_id','$subject_name','$subject_status')";
+    $subject_insert_main_query = mysqli_query($connection,$subject_insert_query);
+    if ($subject_insert_main_query) 
     {
         echo "<script>alert('Programme Inserted Successfully')</script>";
-        echo "<script>window.open('add_course.php','_self')</script>";
+        echo "<script>window.open('add_subject.php','_self')</script>";
     }
     else
     {

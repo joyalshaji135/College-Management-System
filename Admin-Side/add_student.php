@@ -32,47 +32,47 @@
                                             <form action="" method="post">
                                                 <div class="col-md-4 form-group">
                                                     <label for="exampleInputEmail1">Applicant First Name:*</label>
-                                                    <input type="text" placeholder=".col-md-3" class="form-control">
+                                                    <input type="text" placeholder=".col-md-3" class="form-control" name="student_first_name">
                                                 </div>
                                                 <div class="col-md-4 form-group">
                                                     <label for="exampleInputEmail1">Applicant Middle Name:*</label>
-                                                    <input type="text" placeholder=".col-md-3" class="form-control">
+                                                    <input type="text" placeholder=".col-md-3" class="form-control" name="student_middle_name">
                                                 </div>
                                                 <div class="col-md-4 form-group">
                                                     <label for="exampleInputEmail1">Applicant Last Name:*</label>
-                                                    <input type="text" placeholder=".col-md-3" class="form-control">
+                                                    <input type="text" placeholder=".col-md-3" class="form-control" name="student_last_name">
                                                 </div>
                                                 <div class="col-md-4 form-group">
                                                     <label for="exampleInputEmail1">Father Name:*</label>
-                                                    <input type="text" placeholder=".col-md-3" class="form-control">
+                                                    <input type="text" placeholder=".col-md-3" class="form-control" name="student_father_name">
                                                 </div>
                                                 <div class="col-md-4 form-group">
                                                     <label for="exampleInputEmail1">Mother Name:*</label>
-                                                    <input type="text" placeholder=".col-md-3" class="form-control">
+                                                    <input type="text" placeholder=".col-md-3" class="form-control" name="student_mother_name">
                                                 </div>
                                                 <div class="col-md-4 form-group">
                                                     <label for="exampleInputEmail1">Student Roll Number:*</label>
-                                                    <input type="text" placeholder=".col-md-3" class="form-control">
+                                                    <input type="text" placeholder=".col-md-3" class="form-control" name="student_roll_no">
                                                 </div>
                                                 <div class="col-md-4 form-group">
                                                     <label for="exampleInputEmail1">Applicant Email:*</label>
-                                                    <input type="text" placeholder=".col-md-3" class="form-control">
+                                                    <input type="text" placeholder=".col-md-3" class="form-control" name="student_email">
                                                 </div>
                                                 <div class="col-md-4 form-group">
                                                     <label for="exampleInputEmail1">Applicant Phone Number:*</label>
-                                                    <input type="text" placeholder=".col-md-3" class="form-control">
+                                                    <input type="text" placeholder=".col-md-3" class="form-control" name="student_phone_no">
                                                 </div>
                                                 <div class="col-md-4 form-group">
                                                     <label for="exampleInputEmail1">Guardian Phone Number:*</label>
-                                                    <input type="text" placeholder=".col-md-3" class="form-control">
+                                                    <input type="text" placeholder=".col-md-3" class="form-control" name="student_other_phone_np">
                                                 </div>
                                                 <div class="col-md-4 form-group">
                                                     <label for="exampleInputEmail1">Guardian Email:*</label>
-                                                    <input type="text" placeholder=".col-md-3" class="form-control">
+                                                    <input type="text" placeholder=".col-md-3" class="form-control" name="student_email">
                                                 </div>
                                                 <div class="col-md-4 form-group">
                                                     <label for="exampleInputEmail1">Degree which you want?:*</label>
-                                                    <select class="form-control m-bot15" style="text-align: center;">
+                                                    <select class="form-control m-bot15" style="text-align: center;" name="programme_id">
                                                         <option selected disabled>- Select Degree -</option>
                                                         <option>Post Graduation</option>
                                                         <option>Under Graduation</option>
@@ -80,7 +80,7 @@
                                                 </div>
                                                 <div class="col-md-4 form-group">
                                                     <label for="exampleInputEmail1">Select Course :*</label>
-                                                    <select class="form-control m-bot15" style="text-align: center;">
+                                                    <select class="form-control m-bot15" style="text-align: center;" name="course_id">
                                                         <option selected disabled>- Select Course -</option>
                                                         <option>BCA</option>
                                                         <option>Bsc - computer science</option>
@@ -89,11 +89,11 @@
                                                 </div>
                                                 <div class="col-md-4 form-group">
                                                     <label for="exampleInputEmail1">Profile Photo:*</label>
-                                                    <input type="file" placeholder=".col-md-3" class="form-control">
+                                                    <input type="file" placeholder=".col-md-3" class="form-control" name="student_profile">
                                                 </div>
                                                 <div class="col-md-4 form-group">
                                                     <label for="exampleInputEmail1">Applicant Status:*</label>
-                                                    <select class="form-control m-bot15" style="text-align: center;">
+                                                    <select class="form-control m-bot15" style="text-align: center;" name="student_status">
                                                         <option selected disabled>- Applicant Status -</option>
                                                         <option>Admitted</option>
                                                         <option>Not Admitted</option>
@@ -101,7 +101,7 @@
                                                 </div>
                                                 <div class="col-md-4 form-group">
                                                     <label for="exampleInputEmail1">Application Status:*</label>
-                                                    <select class="form-control m-bot15" style="text-align: center;">
+                                                    <select class="form-control m-bot15" style="text-align: center;" name="student_first_name">
                                                         <option selected disabled>- Application Status -</option>
                                                         <option>Approved</option>
                                                         <option>Not Approved</option>
@@ -109,15 +109,15 @@
                                                 </div>
                                                 <div class="col-md-4 form-group">
                                                     <label for="exampleInputEmail1">Aadhaar Card No:*</label>
-                                                    <input type="text" placeholder=".col-md-3" class="form-control">
+                                                    <input type="text" placeholder=".col-md-3" class="form-control" name="student_first_name">
                                                 </div>
                                                 <div class="col-md-4 form-group">
                                                     <label for="exampleInputEmail1">Date of Birth:*</label>
-                                                    <input type="date" placeholder=".col-md-3" class="form-control">
+                                                    <input type="date" placeholder=".col-md-3" class="form-control" name="student_first_name">
                                                 </div>
                                                 <div class="col-md-4 form-group">
                                                     <label for="exampleInputEmail1">Gender:*</label>
-                                                    <select class="form-control m-bot15" style="text-align: center;">
+                                                    <select class="form-control m-bot15" style="text-align: center;" name="student_first_name">
                                                         <option selected disabled>- Select Gender -</option>
                                                         <option>Male</option>
                                                         <option>Female</option>
@@ -125,15 +125,15 @@
                                                 </div>
                                                 <div class="col-md-4 form-group">
                                                     <label for="exampleInputEmail1">Permanent Address:*</label>
-                                                    <input type="text" placeholder=".col-md-3" class="form-control">
+                                                    <input type="text" placeholder=".col-md-3" class="form-control" name="student_first_name">
                                                 </div>
                                                 <div class="col-md-4 form-group">
                                                     <label for="exampleInputEmail1">Current Address:*</label>
-                                                    <input type="text" placeholder=".col-md-3" class="form-control">
+                                                    <input type="text" placeholder=".col-md-3" class="form-control" name="student_first_name">
                                                 </div>
                                                 <div class="col-md-4 form-group">
                                                     <label for="exampleInputEmail1">Class Teacher ID:*</label>
-                                                    <select class="form-control m-bot15" style="text-align: center;">
+                                                    <select class="form-control m-bot15" style="text-align: center;" name="student_first_name">
                                                         <option selected disabled>- Teachers ID -</option>
                                                         <option>Teacher-1</option>
                                                         <option>Teacher-2</option>
@@ -141,43 +141,43 @@
                                                 </div>
                                                 <div class="col-md-4 form-group">
                                                     <label for="exampleInputEmail1">10<sup>th</sup> Course / Started:*</label>
-                                                    <input type="date" placeholder=".col-md-3" class="form-control">
+                                                    <input type="date" placeholder=".col-md-3" class="form-control" name="student_first_name">
                                                 </div>
                                                 <div class="col-md-4 form-group">
                                                     <label for="exampleInputEmail1">10<sup>th</sup> Course / Ended:*</label>
-                                                    <input type="date" placeholder=".col-md-3" class="form-control">
+                                                    <input type="date" placeholder=".col-md-3" class="form-control" name="student_first_name">
                                                 </div>
                                                 <div class="col-md-4 form-group">
                                                     <label for="exampleInputEmail1">10<sup>th</sup> Course / Certificate:*</label>
-                                                    <input type="file" placeholder=".col-md-3" class="form-control">
+                                                    <input type="file" placeholder=".col-md-3" class="form-control" name="student_first_name">
                                                 </div>
                                                 <div class="col-md-4 form-group">
                                                     <label for="exampleInputEmail1">11<sup>th</sup> & 12<sup>th</sup> Course / Started:*</label>
-                                                    <input type="date" placeholder=".col-md-3" class="form-control">
+                                                    <input type="date" placeholder=".col-md-3" class="form-control" name="student_first_name">
                                                 </div>
                                                 <div class="col-md-4 form-group">
                                                     <label for="exampleInputEmail1">11<sup>th</sup> & 12<sup>th</sup> Course / Ended:*</label>
-                                                    <input type="date" placeholder=".col-md-3" class="form-control">
+                                                    <input type="date" placeholder=".col-md-3" class="form-control" name="student_first_name">
                                                 </div>
                                                 <div class="col-md-4 form-group">
                                                     <label for="exampleInputEmail1">11<sup>th</sup> & 12<sup>th</sup> Course / Certificate:*</label>
-                                                    <input type="file" placeholder=".col-md-3" class="form-control">
+                                                    <input type="file" placeholder=".col-md-3" class="form-control" name="student_first_name">
                                                 </div>
                                                 <div class="col-md-4 form-group">
                                                     <label for="exampleInputEmail1">Degree Course / Started:*</label>
-                                                    <input type="date" placeholder=".col-md-3" class="form-control">
+                                                    <input type="date" placeholder=".col-md-3" class="form-control" name="student_first_name">
                                                 </div>
                                                 <div class="col-md-4 form-group">
                                                     <label for="exampleInputEmail1">Degree Course / Ended:*</label>
-                                                    <input type="date" placeholder=".col-md-3" class="form-control">
+                                                    <input type="date" placeholder=".col-md-3" class="form-control" name="student_first_name">
                                                 </div>
                                                 <div class="col-md-4 form-group">
                                                     <label for="exampleInputEmail1">Degree Course / Certificate:*</label>
-                                                    <input type="file" placeholder=".col-md-3" class="form-control">
+                                                    <input type="file" placeholder=".col-md-3" class="form-control" name="student_first_name">
                                                 </div>
                                                 <div class="col-md-12 form-group">
                                                     <br>
-                                                    <input type="button" placeholder=".col-md-3" class="form-button" value="Submit">
+                                                    <input type="submit" placeholder=".col-md-3" class="form-button" value="Submit" name="student_first_name">
                                                 </div>
                                             </form>
                                         </div>

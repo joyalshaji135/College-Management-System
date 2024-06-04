@@ -221,7 +221,11 @@ include('./Function/display_function.php');
 
         <!-- footer end -->
 
-<!-- student_id 	programme_id 	course_id 	student_reg_no 	student_first_name 	student_middle_name 	student_last_name 	student_password 	student_father_name 	student_mother_name 	student_email 	student_phone_no 	student_profile_image 	student_other_phone_no 	student_gender 	student_permanent_address 	student_aadhaar_no 	student_current_address 	student_dob 	student_ten_qualification 	initial_date_ten 	last_date_ten 	student_plus_two_qualification 	initial_date_plus_two 	last_date_plus_two 	student_degree_qualification 	initial_degree_two 	last_degree_two 	student_status 	admitted_status 	approved_status -->
+<!-- student_id 	programme_id 	course_id 	student_reg_no 	student_first_name 	student_middle_name 	student_last_name 	student_password 	
+student_father_name 	student_mother_name 	student_email 	student_phone_no 	student_profile_image 	student_other_phone_no 	student_gender 	
+student_permanent_address 	student_aadhaar_no 	student_current_address 	student_dob 	student_ten_qualification 	initial_date_ten 	last_date_ten 	
+student_plus_two_qualification 	initial_date_plus_two 	last_date_plus_two 	student_degree_qualification 	initial_degree_two 	last_degree_two 	
+student_status 	admitted_status 	approved_status -->
 
 
 <!-- Student Data insertion Code -->
@@ -230,6 +234,19 @@ include('./Function/display_function.php');
 
 if (isset($_POST["student_data_submit"])) {
     
+    $student__reg_no = $_POST[''];
+    $student_ = $_POST[''];
+    $student_ = $_POST[''];
+    $student_ = $_POST[''];
+    $student_ = $_POST[''];
+    $student_ = $_POST[''];
+    $student_ = $_POST[''];
+    $student_ = $_POST[''];
+    $student_ = $_POST[''];
+    $student_ = $_POST[''];
+    $student_ = $_POST[''];
+    $student_ = $_POST[''];
+    $student_ = $_POST[''];
     $student_ = $_POST[''];
 }
 
